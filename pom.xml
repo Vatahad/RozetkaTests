@@ -34,20 +34,18 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-    <!--<dependency>-->
-      <!--<groupId>javax.servlet</groupId>-->
-      <!--<artifactId>javax.servlet-api</artifactId>-->
-      <!--<version>3.0.1</version>-->
-      <!--<scope>provided</scope>-->
-    <!--</dependency>-->
-
-    <!-- https://mvnrepository.com/artifact/com.codeborne/selenide -->
     <dependency>
       <groupId>com.codeborne</groupId>
       <artifactId>selenide</artifactId>
       <version>4.9.1</version>
     </dependency>
+
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+
 
   </dependencies>
 </project>
