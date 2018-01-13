@@ -1,9 +1,9 @@
-package Wirk;
+package Rozetka;
 
-import Gmail.GmailInbox;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+import technologies.GmailInbox;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;

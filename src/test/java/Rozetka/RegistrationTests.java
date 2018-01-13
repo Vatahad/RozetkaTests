@@ -1,4 +1,4 @@
-package Wirk;
+package Rozetka;
 
 
 import com.codeborne.selenide.Condition;

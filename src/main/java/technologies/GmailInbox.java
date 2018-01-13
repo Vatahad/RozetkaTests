@@ -1,5 +1,4 @@
-package Gmail;
-
+package technologies;
 
 import javax.mail.*;
 import javax.mail.search.SearchTerm;
