@@ -56,7 +56,7 @@ public class GmailInbox {
                 body = foundMessages[foundMessages.length - 1].getContent().toString();
             } else {
                 Multipart mp = (Multipart) foundMessages[foundMessages.length - 1].getContent();
-                    body = (String) mp.getBodyPart(0).getContent();
+                body = (String) mp.getBodyPart(0).getContent();
             }
 
             inbox.close(true);
